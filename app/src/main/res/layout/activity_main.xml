@@ -7,50 +7,46 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <LinearLayout
-        android:layout_margin="10dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:id="@+id/linearLayout2" app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
         <EditText
-            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:hint="Name1"
-            android:ems="10"
             android:id="@+id/ed1"/>
         <EditText
-            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:hint="Name2"
-            android:ems="10"
             android:id="@+id/ed2"/>
         <EditText
-            android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:hint="Name3"
-            android:ems="10"
             android:id="@+id/ed3"/>
         <Button
-            android:layout_margin="30dp"
-            android:text="Post"
+            android:text="Add"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/btnAdd"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdd"/>
 
         <Button
-            android:layout_margin="30dp"
             android:text="get names"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/btnGet"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGet"/>
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="match_parent" android:id="@+id/rv"/>
+            android:layout_height="match_parent"
+            android:id="@+id/rv"/>
 
 
     </LinearLayout>
